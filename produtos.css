@@ -1,0 +1,33 @@
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    /* Seleciona todos as tags <li> que se encontram dentro da tag <nav> */
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+     /* Seleciona todos as tags <a> que se encontram dentro da tag <nav> */
+     color: #000000;
+    
+     font-size: 22px;
+     font-weight: bold;
+ 
+     text-transform: uppercase;
+     text-decoration: none;
+ 
+}
