@@ -20,6 +20,8 @@ nav li {
     display: inline;
     margin: 0 0 0 15px;
 }
+
+
 nav a {
      /* Seleciona todos as tags <a> que se encontram dentro da tag <nav> */
      color: #000000;
@@ -30,6 +32,11 @@ nav a {
      text-transform: uppercase;
      text-decoration: none;
  
+}
+
+nav li a:hover {
+    color: #C78C19;
+    text-decoration: underline;
 }
 
 .produtos {
@@ -54,6 +61,18 @@ nav a {
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+
+.produtos li:active {
+    border-color: #088C19
+}
+.produtos li:hover h2{
+    font-size: 34px;
 }
 
 .produtos__descricao {
