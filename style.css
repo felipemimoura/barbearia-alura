@@ -37,48 +37,9 @@ nav li a:hover{
     text-decoration: underline;
 }
 
-#banner {
-    width: 100%;
-}
-.principal {
-    background: #ccc;
-    padding: 30px;
-}
-
-.titulo__centralizado {
-    text-align: center;
-}
-p {
-    text-align: center;
-}
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: #FF0000
-}
-
-.beneficios {
-    padding: 20px;
-}
-h2{
-    text-align: center;
-}
-
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.image__beneficios {
-    width: 50%;
+.main {
+    width: 940px;
+    margin: 0 auto;
 }
 
 footer {
