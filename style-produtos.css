@@ -44,3 +44,15 @@
     margin-top: 10px;
 }
 
+@media screen and (max-width: 480px){
+    .produtos {
+        width: auto;
+    }
+    .produtos li {
+        display: block;
+        width: 100%;
+    }
+    .produtos li:nth-child(2){
+        margin: 1rem 0
+    }
+}
