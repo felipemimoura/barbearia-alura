@@ -95,5 +95,18 @@
     margin: 2em auto;
 }
 
+@media screen and (max-width: 480px ){
+    .principal,.conteudo__beneficios, .mapa__conteudo, .video {
+        width: auto;
+    }
 
+    .lista__beneficios, .image__beneficios{
+        width: 100%;
+    }
+
+    .image__beneficios{
+        margin-top: 1em;
+    }
+
+}
 
